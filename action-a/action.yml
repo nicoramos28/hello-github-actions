@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  DB_NAME:
+    description: "Database used"
+    required: true
+    default: "sandbox"
 
 runs:
   using: "docker"
